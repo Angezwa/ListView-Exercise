@@ -13,7 +13,8 @@ namespace FlagFacts
 
             InitializeComponent();
 
-            MainPage = new NavigationPage(new FlagDetailsPage());
+            //MainPage = new NavigationPage(new FlagDetailsPage());
+            MainPage = new NavigationPage(new AllFlagsPage());
         }
 
         protected override void OnStart()
